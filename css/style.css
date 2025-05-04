@@ -25,13 +25,15 @@ header {
 
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: flex;
+    gap: 20px;
 }
 
 nav ul li {
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block; 
 }
 
 nav ul li a {
@@ -71,13 +73,16 @@ h3 {
 img[alt="deep-forest"] { 
     height: 370px;
     width: 980px;
-    margin-left: 250px;
+    margin: 0 auto;      
+    display: block; 
 }
 
 img[alt="etna-montagna"] { 
     height: 450px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block; 
+    
 }
 
 .Titolo-parco {
@@ -129,7 +134,8 @@ img[alt="etna-montagna"] {
 img[alt="volpe"] {
     height: 600px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block; 
     margin-top: 130px; 
 }
 
@@ -153,11 +159,15 @@ img[alt="volpe"] {
     top: 30px;
 } 
 
+.contenitore {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 130px;
+}
+
 img[alt="borgo"] {
     height: 400px;
-    width: 700px;
-    margin-left: 328px;
-    margin-top: 130px; 
+    width: 800px;
 }
 
 .Titolo-attività {
@@ -183,15 +193,16 @@ img[alt="borgo"] {
 .conservazione {
     font-size: 30px;
     color: #FFFFFF;
-    margin-left: 350px;
+    margin: 340px;
     margin-top: -260px;
 }
 
 .testo {
     font-size: 14px;
     color: #ffffff;
-    margin-left: 350px;
-    margin-top: -20px;
+    margin: 350px;
+    position: relative;
+    margin-top: -330px;
     max-width: 600px;
 }
 
@@ -201,7 +212,7 @@ img[alt="borgo"] {
     max-width: 900px;
     margin: 0 auto;
     text-align: justify;
-    margin-top: 190px; 
+    margin-top: -200px; 
 }
 
 .descrizione-visitare {
@@ -229,7 +240,8 @@ img[alt="borgo"] {
 img[alt="montagne"] { 
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block; 
 }
 
 .Titolo-parco01 {
@@ -341,7 +353,8 @@ img[alt="montagne"] {
 img[alt="capre-montagna"] {
     height: 650px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block; 
     margin-top: 130px; 
 }
 
@@ -445,25 +458,30 @@ img[alt="capre-montagna"] {
     top: 20px;
 } 
 
+.contenitore01 {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 130px;
+}
+
 img[alt="paradiso-montagna"] {
     height: 400px;
-    width: 700px;
-    margin-left: 328px;
-    margin-top: 130px; 
+    width: 800px;
 }
 
 .conservazione01 {
     font-size: 30px;
     color: #FFFFFF;
-    margin-left: 350px;
+    margin: 340px;
     margin-top: -260px;
 }
 
 .testo01 {
     font-size: 14px;
     color: #ffffff;
-    margin-left: 350px;
-    margin-top: -20px;
+    margin: 350px;
+    position: relative;
+    margin-top: -330px;
     max-width: 600px;
 }
 
@@ -481,7 +499,8 @@ img[alt="paradiso-montagna"] {
 img[alt="Pollino"] { 
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
 }
 
 .Titolo-parco02 {
@@ -505,7 +524,8 @@ img[alt="Pollino"] {
 img[alt="lupo-pollino"] {
     height: 650px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
     margin-top: 130px; 
 }
 
@@ -609,25 +629,29 @@ img[alt="lupo-pollino"] {
     top: 40px;
 } 
 
+.contenitore02 {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 130px;
+}
+
 img[alt="pollino-montagna"] {
     height: 400px;
-    width: 700px;
-    margin-left: 328px;
-    margin-top: 130px; 
+    width: 800px;
 }
 
 .conservazione02 {
     font-size: 30px;
     color: #FFFFFF;
-    margin-left: 350px;
+    margin: 340px;
     margin-top: -260px;
 }
 
 .testo02 {
     font-size: 14px;
     color: #ffffff;
-    margin-left: 350px;
-    margin-top: -20px;
+    margin: 350px;
+    margin-top: -330px;
     max-width: 600px;
 }
 
@@ -645,7 +669,8 @@ img[alt="pollino-montagna"] {
 img[alt="dolomiti-montagne"] { 
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
 }
 
 .Titolo-parco03 {
@@ -669,7 +694,8 @@ img[alt="dolomiti-montagne"] {
 img[alt="camoscio-dolomiti"] {
     height: 600px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
     margin-top: 130px; 
 }
 
@@ -693,25 +719,29 @@ img[alt="camoscio-dolomiti"] {
     top: 40px;
 } 
 
+.contenitore03 {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 130px;
+}
+
 img[alt="dolomiti"] {
     height: 400px;
-    width: 700px;
-    margin-left: 328px;
-    margin-top: 130px; 
+    width: 800px;
 }
 
 .conservazione03 {
     font-size: 30px;
     color: #FFFFFF;
-    margin-left: 350px;
+    margin: 340px;
     margin-top: -260px;
 }
 
 .testo03 {
     font-size: 14px;
     color: #ffffff;
-    margin-left: 350px;
-    margin-top: -20px;
+    margin: 350px;
+    margin-top: -330px;
     max-width: 600px;
 }
 
@@ -729,7 +759,8 @@ img[alt="dolomiti"] {
 img[alt="marmotta"] {
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
     margin-top: 100px;  
 }
 
@@ -776,7 +807,8 @@ img[alt="marmotta"] {
 img[alt="ginestra"] {
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
     margin-top: 130px;  
 }
 
@@ -803,7 +835,8 @@ img[alt="ginestra"] {
 img[alt="Pino"] {
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
     margin-top: 130px;  
 }
 
@@ -830,7 +863,8 @@ img[alt="Pino"] {
 img[alt="FARFALLA"] {
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
     margin-top: 130px;  
 }
 
@@ -886,29 +920,32 @@ img[alt="FARFALLA"] {
 img[alt="trekking"] {
     height: 500px;
     width: 1200px;
-    margin-left: -40px;
-    margin-right: 50;
+    margin: 0 auto;      
+    display: block;
     margin-top: 30px;  
 }
 
 img[alt="BIRDWATCHING"] {
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
     margin-top: 50px;  
 }
 
 img[alt="escursioni"] {
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
     margin-top: 50px;  
 }
 
 img[alt="trekking-pollino"] {
     height: 550px;
     width: 980px;
-    margin-left: 50px;
+    margin: 0 auto;      
+    display: block;
     margin-top: 40px;  
 }
 
