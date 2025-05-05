@@ -1075,6 +1075,7 @@ main {
     header {
         flex-direction: column;
         text-align: center;
+        width: 90%;
     }
 
     nav ul {
@@ -1164,16 +1165,32 @@ main {
         margin-top: 60px;
     }
 
-    img[alt="deep-forest"], img[alt="etna-montagna"], img[alt="volpe"], img[alt="borgo"], img[alt="montagne"], img[alt="capre-montagna"], img[alt="paradiso-montagna"], img[alt="Pollino"], img[alt="lupo-pollino"], img[alt="pollino-montagna"], img[alt="dolomiti-montagne"], img[alt="camoscio-dolomiti"], img[alt="dolomiti"], img[alt="marmotta"], img[alt="trekking-pollino"], img[alt="escursioni"], img[alt="ginestra"], img[alt="Pino"], img[alt="BIRDWATCHING"], img[alt="FARFALLA"], img[alt="trekking"]   {
+    img[alt="deep-forest"], img[alt="etna-montagna"], img[alt="volpe"], img[alt="borgo"], img[alt="montagne"], img[alt="capre-montagna"], img[alt="paradiso-montagna"], img[alt="Pollino"], img[alt="lupo-pollino"], img[alt="pollino-montagna"], img[alt="dolomiti-montagne"], img[alt="camoscio-dolomiti"], img[alt="marmotta"], img[alt="trekking-pollino"], img[alt="escursioni"], img[alt="ginestra"], img[alt="Pino"], img[alt="BIRDWATCHING"], img[alt="FARFALLA"], img[alt="trekking"]   {
         width: 80%; 
         height: auto;  
         margin: 50px; 
     }
 
+    .footer{
+        width: 84%;
+        flex-direction: column;
+        align-items: flex-start;
+        display: block; 
+
+    } 
+
     .grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
+        margin: 0 20px;  
+    }
+
+    
+    .grid .item img {
+        width: 100%;  
+        height: auto;  
     }
 }
+
 
 
 
