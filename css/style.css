@@ -16,6 +16,7 @@ header {
     padding: 15px 20px;
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -46,28 +47,28 @@ nav ul li a {
 h1 {
     font-size: 40px;
     color: #90906E;
-    max-width: 1100px;
-    margin: 0 auto;
-    margin: 30px 240px;
+    max-width: 900px;
     font-weight: 400;
+    margin: 0 auto;
+    
 }
 
 h2 {
     font-size: 17px;
     color: #6D794E;
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
-    margin: -10px 240px;
+    margin-bottom: 20px;
 }
 
 
 h3 {
     font-size: 15px;
     color: black;
-    max-width: 1100px;
-    margin: 0 auto;
-    margin: 30px 240px;
+    max-width: 900px;
     font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 img[alt="deep-forest"] { 
@@ -75,6 +76,7 @@ img[alt="deep-forest"] {
     width: 980px;
     margin: 0 auto;      
     display: block; 
+    margin-bottom: 20px;
 }
 
 img[alt="etna-montagna"] { 
@@ -674,7 +676,7 @@ img[alt="dolomiti-montagne"] {
 }
 
 .Titolo-parco03 {
-    margin-top: -150px;  
+    margin-top: -100px;  
     color: #F5F5DC; 
     margin-left: 100px; 
 }
@@ -688,7 +690,7 @@ img[alt="dolomiti-montagne"] {
     max-width: 900px;
     margin: 0 auto;
     position: relative;
-    top: 50px;
+    top: 100px;
 }
 
 img[alt="camoscio-dolomiti"] {
@@ -919,7 +921,7 @@ img[alt="FARFALLA"] {
 
 img[alt="trekking"] {
     height: 500px;
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;      
     display: block;
     margin-top: 30px;  
@@ -1025,10 +1027,10 @@ img[alt="trekking-pollino"] {
 h4 {
     font-size: 15px;
     color: black;
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
-    margin: 50px 240px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 main {
